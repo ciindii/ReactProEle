@@ -1,0 +1,84 @@
+/* ============================  */
+/* == G O B A L  S T Y L E S ==  */
+/* ============================  */
+
+body {
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	list-style:none;
+}
+
+li {
+	padding:0;
+	margin:0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  transition: opacity 0.4s ease-out;
+  cursor: pointer;
+}
+a:hover {
+  color: gold;
+  text-decoration: none;
+}
+a:focus {
+  color: #fff;
+}
+
+
+h2 {
+  color: #ccc;
+  font-family: 'Thasadith', sans-serif;
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 25px;
+  letter-spacing: 5px;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+  padding: 0 !important;
+  color: #eee;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* SECTION HEADING STYLES */
+#about,
+#lash-extentions,
+#microblading,
+#wax,
+#add-ons,
+#portfolio {
+  min-height: 300px;
+  padding: 50px 0;
+}
+/* END SECTION HEADING STYLES */
+
+/* ==== FIXED SIDE CONTENT ===  */
+/* = END FIXED SIDE CONTENT ==  */
+
+#particles-js {
+  background-color: #000;
+  height: 400px;
+}
+.booking {
+  padding:200px;
+}
+
+
+/* ======== FOOTER ===========  */
+/* ====   END FOOTER  ========  */
+
+/* ========== E N D ===========  */
+/* ===G O B A L  S T Y L E S===  */
+/* ============================  */

@@ -1,0 +1,37 @@
+.top-menu-lead {
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+    display: inline-block;
+    float: left;
+    font-size: 18px;
+}
+
+.brand-name {
+  background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%);
+  width: 100%;
+}
+.brand-name img {
+  position: relative;
+  width: 120px;
+  margin-left: 20px;
+  padding: 0;
+  /* animation */
+  animation: brand-name;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+@keyframes brand-name {
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+@media screen and (max-width: 600px) {
+    .top-menu-lead {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        float: none;
+    }
+}

@@ -1,0 +1,73 @@
+.backdrop {
+  /* background-image: url('img/landingimg.jpeg');
+  background-repeat: no-repeat; */
+  height: 800px;
+  width: 100%;
+  /* background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; */
+  /* text styles */
+  font-family: 'Thasadith', sans-serif;
+  text-transform: lowercase;
+  margin: 0 auto;
+  letter-spacing: 2px;
+  color: #fff;
+  /* position: relative; */
+}
+
+/* MISSION TEXT */
+.mission-text {
+  font-size: 30px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 500px;
+}
+.mission-text p {
+  display: inline-block;
+  text-align: center;
+  opacity: .5;
+}
+.mission-text:after{
+  content: ' lashes';
+  animation-name: we-do;
+  -webkit-animation-name: we-do;
+  -webkit-animation-duration: 3s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes we-do {
+  0% {content: " lash extentions"; transition: 2s;}
+  50% {content: " custom wigs"; transition: 2s;}
+  100% {content: " sugar wax"; transition: 2s;}
+}
+/*  END MISSION TEXT */
+
+/*  ACTION BUTTON */
+.action-btn {
+  display: block;
+  text-align: center;
+  border-bottom: #fff 1px solid;
+  padding-bottom: 20px;
+  transition: color 2s;
+  margin: 40px auto 0 auto;
+  /* animation */
+  animation-name: action-btn;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+.action-btn:hover {
+  color: gold;
+  text-decoration: none;
+}
+.action-btn:focus {
+  text-decoration: none;
+  color: #fff;
+}
+@keyframes action-btn {
+  0% {opacity: 0; width: 100%;}
+  100% {opacity: .8; width: 50%;}
+}
+/*  END ACTION BUTTON */

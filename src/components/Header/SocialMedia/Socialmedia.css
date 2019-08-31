@@ -1,0 +1,51 @@
+/* SOCIAL MEDIA ICON STYLES (.socialMedia is the DIV) */
+.socialMedia {
+  padding: 15px;
+}
+.socialMedia a {
+  font-size: 25px;
+  color: #fff;
+  text-decoration: none;
+}
+.socialMedia p {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+}
+.socialMedia p,
+.socialMedia .cell,
+.socialMedia .mail {
+  font-size: 15px;
+}
+/* social media icon li/ul */
+.socialMedia ul {
+  display: flex !important; 
+  flex-direction: column;
+  list-style: none;
+  text-align: center;
+
+  margin: 0 auto;
+  color: #000;
+  opacity: 0.9;
+}
+.socialMedia li {
+  padding-right: 20px;
+}
+/* .socialMedia li:last-child {
+  padding-right: 0px;
+} */
+/* social media icons */
+/* .facebook:before {
+  padding-right: 0;
+}
+.instagram:before {
+
+}
+.yelp:before {
+  padding-right: 0px;
+} */
+/* social media hover effects  */
+.facebook:hover, .instagram:hover, .yelp:hover {
+  text-decoration: none;
+  color: #fff;
+  opacity: .5;
+}
