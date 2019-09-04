@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import About from './About';
 import './Backdrop.css'
 
 class Backdrop extends Component {
@@ -11,7 +12,9 @@ class Backdrop extends Component {
         <a href="#" className="action-btn view-services-btn">
           view services
         </a>
+        <About />
       </div>
+
     )
   }
 }

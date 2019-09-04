@@ -1,9 +1,11 @@
 import React, {Component} from 'react';
+import { Link } from 'react-router-dom';
+// APP COMPONENTS
 import Item from './item';
 import Lead from './lead';
 import Socialmedia from './SocialMedia/Socialmedia';
 import './Header.css';
-
+// FONTAWESOME ICONS
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
@@ -38,8 +40,9 @@ class Header extends Component {
 
           <Lead />
           <div className='right'>
-            <Item text='Home'/>
-            <Item text='About'/>
+            <Link to="/"> <Item text='Home'/> </Link>
+            <Link to="/About"><Item text='About'/>
+          </Link>
             <Item text='Services'/>
             <Item text='Gallery'/>
           </div>
@@ -56,9 +59,8 @@ class Header extends Component {
                 <a href="#about">About</a>
                 <ul>
                   <li>
-                    <a href='services.html'>
-                      <Item text='about us'/>
-                    </a>
+                    <Link to="/About"><Item text='About us'/>
+                  </Link>
                   </li>
                   <li>
                     <a href='services.html'>
@@ -107,7 +109,6 @@ class Header extends Component {
 
             </ul>
           </div>
-<Socialmedia />
         </div>
         <a className='top-menu-icon' onClick={this.setToggleTopMenuClass}>
           <FontAwesomeIcon icon={faBars} size="lg" />

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { Link } from 'react-router-dom';
 import './index.css'
 
 class Lead extends Component {
@@ -13,9 +13,9 @@ class Lead extends Component {
         return (
             <div className='top-menu-lead'>
               <div className="brand-name">
-                <a href="#">
+                <Link to="/">
                   <img src="img/ex2-2-white.png" alt=""/>
-                </a>
+                </Link>
               </div>
             </div>
         )
