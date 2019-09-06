@@ -36,6 +36,7 @@ class Header extends Component {
     let top_menu_class = `top-menu ${this.state.menu_class}`
     return (
       <div>
+
       <div className={top_menu_class}>
 
           <Lead />
@@ -51,15 +52,15 @@ class Header extends Component {
           <div className="wrap">
             <ul className="wrap-nav">
               <div className="menu-icon-div">
-                <a href="#" className="exit-icon" onClick={this.setToggleTopMenuClass}><FontAwesomeIcon icon={faTimes} />
-                </a>
+                <Link to="/" className="exit-icon" onClick={this.setToggleTopMenuClass}><FontAwesomeIcon icon={faTimes} />
+              </Link>
               </div>
 
               <li>
                 <a href="#about">About</a>
                 <ul>
                   <li>
-                    <Link to="/About"><Item text='About us'/>
+                    <Link to="/About"><Item text='About'/>
                   </Link>
                   </li>
                   <li>

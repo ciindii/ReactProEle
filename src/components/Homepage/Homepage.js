@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import About from './About';
-import './Backdrop.css'
+import './Homepage.css'
 
-class Backdrop extends Component {
+class Homepage extends Component {
   render = () => {
     return (
       <div className="backdrop">
@@ -18,4 +18,4 @@ class Backdrop extends Component {
     )
   }
 }
-export default Backdrop;
+export default Homepage;
